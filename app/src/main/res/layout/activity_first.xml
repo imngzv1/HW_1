@@ -37,6 +37,4 @@
         android:id="@+id/btn_two"
         android:layout_marginTop="15dp"/>
 
-
-
 </LinearLayout>
