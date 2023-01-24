@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_main"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="355dp"
+        android:layout_height="70dp"
+        android:hint="@string/type"
+        android:background="@drawable/edit_text"
+        android:paddingStart="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:id="@+id/ed_one"
+        />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Next"
+    android:textSize="25sp"
+    android:id="@+id/btn_one"
+    android:layout_marginTop="15dp"/>
+
+
+
+</LinearLayout>
